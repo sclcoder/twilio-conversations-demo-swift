@@ -25,6 +25,8 @@ class ConversationsLoginManager: LoginManager {
     // MARK: Sign in logic
 
     func signIn(identity: String, password: String, completion: @escaping (LoginResult) -> Void) {
+        
+        print(identity, password)
         conversationsProvider.create(login: identity, password: password) { [weak self] result in
             if case .success = result {
                 // Save credentials

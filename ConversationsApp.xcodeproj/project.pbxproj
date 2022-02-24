@@ -1267,7 +1267,7 @@
 				CODE_SIGN_ENTITLEMENTS = ConversationsApp/ConversationsApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7HS255F6G5;
+				DEVELOPMENT_TEAM = 687C4JR3J3;
 				ENABLE_TESTABILITY = YES;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = ConversationsApp/Info.plist;
@@ -1275,7 +1275,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.rtd.conversations-app-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chime.twillo-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = NO;
@@ -1291,7 +1291,7 @@
 				CODE_SIGN_ENTITLEMENTS = ConversationsApp/ConversationsApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7HS255F6G5;
+				DEVELOPMENT_TEAM = 687C4JR3J3;
 				ENABLE_TESTABILITY = YES;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = ConversationsApp/Info.plist;
@@ -1300,7 +1300,7 @@
 					"@executable_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.rtd.conversations-app-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chime.twillo-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = NO;

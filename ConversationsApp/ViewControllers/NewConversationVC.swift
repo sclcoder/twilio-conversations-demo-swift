@@ -38,7 +38,9 @@ class NewConversationVC: UIViewController {
             if let error = error {
                 self.errorLabel.text = error.localizedDescription
             } else {
-                self.dismiss(animated: true)
+                DispatchQueue.main.async {
+                    self.dismiss(animated: true)
+                }
             }
         }
     }
